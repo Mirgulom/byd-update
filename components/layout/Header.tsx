@@ -16,6 +16,7 @@ import {
 } from '@/components/ui/navigation-menu';
 import { ThemeSwitcher } from '@/components/shared/ThemeSwitcher';
 import { LanguageSwitcher } from '@/components/shared/LanguageSwitcher';
+import { SendRequestModal } from '@/components/shared/SendRequestModal';
 import { cn } from '@/lib/utils';
 import { allModels } from '@/lib/data/models';
 
@@ -23,6 +24,7 @@ export default function Header() {
     const t = useTranslations();
     const [isScrolled, setIsScrolled] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const [requestModalOpen, setRequestModalOpen] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -155,7 +157,10 @@ export default function Header() {
                             <span>+998 90 123-45-67</span>
                         </a>
 
-                        <Button className="hidden md:inline-flex bg-primary hover:bg-primary/90">
+                        <Button
+                            className="hidden md:inline-flex bg-primary hover:bg-primary/90"
+                            onClick={() => setRequestModalOpen(true)}
+                        >
                             {t('common.sendRequest')}
                         </Button>
 
@@ -189,7 +194,13 @@ export default function Header() {
                                     <Link href="/contacts" className="text-lg font-medium hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>
                                         {t('nav.contacts')}
                                     </Link>
-                                    <Button className="mt-4 bg-primary hover:bg-primary/90">
+                                    <Button
+                                        className="mt-4 bg-primary hover:bg-primary/90"
+                                        onClick={() => {
+                                            setRequestModalOpen(true);
+                                            setMobileMenuOpen(false);
+                                        }}
+                                    >
                                         {t('common.sendRequest')}
                                     </Button>
                                 </nav>
@@ -198,6 +209,7 @@ export default function Header() {
                     </div>
                 </div>
             </div>
+            <SendRequestModal open={requestModalOpen} onOpenChange={setRequestModalOpen} />
         </header>
     );
 }

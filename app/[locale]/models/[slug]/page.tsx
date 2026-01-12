@@ -17,9 +17,10 @@ import {
 } from 'lucide-react';
 import Link from 'next/link';
 
-export default function ModelPage({ params }: { params: { slug: string } }) {
+export default async function ModelPage({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
     const t = useTranslations();
-    const model = allModels.find((m) => m.id === params.slug);
+    const model = allModels.find((m) => m.id === slug);
 
     if (!model) {
         notFound();

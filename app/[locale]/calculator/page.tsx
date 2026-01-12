@@ -157,7 +157,7 @@ export default function CalculatorPage() {
                                             ))}
                                         </Pie>
                                         <Tooltip
-                                            formatter={(value: number) => formatMoney(value)}
+                                            formatter={(value) => formatMoney(value as number)}
                                         />
                                     </PieChart>
                                 </ResponsiveContainer>

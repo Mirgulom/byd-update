@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 export default function CTASection() {
     const t = useTranslations();
@@ -16,13 +17,15 @@ export default function CTASection() {
                 <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
                     Experience the future of driving. Book your test drive today and discover why BYD is leading the electric revolution.
                 </p>
-                <Button
-                    size="lg"
-                    className="bg-white text-primary hover:bg-white/90 text-lg px-8"
-                >
-                    {t('home.ctaButton')}
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
+                <Link href="/test-drive">
+                    <Button
+                        size="lg"
+                        className="bg-white text-primary hover:bg-white/90 text-lg px-8"
+                    >
+                        {t('home.ctaButton')}
+                        <ArrowRight className="ml-2 h-5 w-5" />
+                    </Button>
+                </Link>
             </div>
         </section>
     );

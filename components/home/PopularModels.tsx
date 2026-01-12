@@ -52,14 +52,14 @@ export default function PopularModels() {
                         nextEl: '.swiper-button-next-custom',
                         prevEl: '.swiper-button-prev-custom',
                     }}
-                    pagination={{ clickable: true }}
+                    pagination={{ clickable: true, dynamicBullets: true }}
                     autoplay={{ delay: 4000, disableOnInteraction: false }}
                     breakpoints={{
                         640: { slidesPerView: 2 },
                         1024: { slidesPerView: 3 },
                         1280: { slidesPerView: 4 },
                     }}
-                    className="pb-12"
+                    className="!pb-4"
                 >
                     {popularModels.map((model) => (
                         <SwiperSlide key={model.id}>

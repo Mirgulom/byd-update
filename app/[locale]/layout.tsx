@@ -7,6 +7,7 @@ import "../globals.css";
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { ThemeProvider } from '@/components/providers/ThemeProvider';
+import { Toaster } from '@/components/ui/sonner';
 
 const inter = Inter({
     subsets: ["latin", "cyrillic"],
@@ -42,6 +43,7 @@ export default async function LocaleLayout({
                             {children}
                         </main>
                         <Footer />
+                        <Toaster richColors position="top-right" />
                     </NextIntlClientProvider>
                 </ThemeProvider>
             </body>

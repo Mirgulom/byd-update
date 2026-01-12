@@ -57,3 +57,24 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Swiper Pagination Styles */
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 2rem !important;
+}
+
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  background: hsl(var(--muted-foreground)) !important;
+  opacity: 0.5 !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: hsl(var(--primary)) !important;
+  opacity: 1 !important;
+  width: 24px !important;
+  border-radius: 5px !important;
+}
