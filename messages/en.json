@@ -1,0 +1,75 @@
+{
+    "nav": {
+        "home": "Home",
+        "models": "Models",
+        "about": "About",
+        "testDrive": "Test Drive",
+        "service": "Service",
+        "calculator": "Credit Calculator",
+        "contacts": "Contacts",
+        "sedans": "Sedans",
+        "crossovers": "Crossovers",
+        "electric": "Electric Vehicles",
+        "viewAllModels": "View All Models"
+    },
+    "common": {
+        "learnMore": "Learn More",
+        "bookTestDrive": "Book Test Drive",
+        "sendRequest": "Send Request",
+        "from": "from",
+        "currency": "UZS",
+        "phone": "Phone",
+        "email": "Email",
+        "name": "Name",
+        "submit": "Submit",
+        "reset": "Reset",
+        "apply": "Apply",
+        "viewAll": "View All",
+        "close": "Close"
+    },
+    "home": {
+        "hero": {
+            "title": "Welcome to BYD",
+            "subtitle": "Experience the Future of Automotive"
+        },
+        "popularModels": "Popular Models",
+        "whyByd": "Why BYD",
+        "news": "News & Events",
+        "ctaTitle": "Book Your Test Drive Today",
+        "ctaButton": "Book Now"
+    },
+    "models": {
+        "title": "Our Models",
+        "filters": {
+            "bodyType": "Body Type",
+            "engineType": "Engine Type",
+            "priceRange": "Price Range",
+            "year": "Year",
+            "all": "All"
+        },
+        "badges": {
+            "new": "New",
+            "bestseller": "Bestseller",
+            "electric": "Electric"
+        },
+        "types": {
+            "sedan": "Sedan",
+            "suv": "SUV",
+            "crossover": "Crossover",
+            "hatchback": "Hatchback"
+        },
+        "engineTypes": {
+            "electric": "Electric",
+            "hybrid": "Hybrid",
+            "petrol": "Petrol"
+        }
+    },
+    "footer": {
+        "about": "About Company",
+        "quickLinks": "Quick Links",
+        "contactInfo": "Contact Information",
+        "social": "Social Media",
+        "newsletter": "Subscribe to Newsletter",
+        "copyright": "© 2026 BYD. All rights reserved."
+    }
+}

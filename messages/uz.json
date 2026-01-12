@@ -1,0 +1,75 @@
+{
+    "nav": {
+        "home": "Bosh sahifa",
+        "models": "Modellar",
+        "about": "Kompaniya haqida",
+        "testDrive": "Test-drayv",
+        "service": "Servis",
+        "calculator": "Kredit kalkulyatori",
+        "contacts": "Kontaktlar",
+        "sedans": "Sedanlar",
+        "crossovers": "Krossoverlar",
+        "electric": "Elektromobillar",
+        "viewAllModels": "Barcha modellar"
+    },
+    "common": {
+        "learnMore": "Batafsil",
+        "bookTestDrive": "Test-drayvga yozilish",
+        "sendRequest": "So'rov yuborish",
+        "from": "dan",
+        "currency": "so'm",
+        "phone": "Telefon",
+        "email": "Email",
+        "name": "Ism",
+        "submit": "Yuborish",
+        "reset": "Tozalash",
+        "apply": "Qo'llash",
+        "viewAll": "Hammasini ko'rish",
+        "close": "Yopish"
+    },
+    "home": {
+        "hero": {
+            "title": "BYD ga xush kelibsiz",
+            "subtitle": "Avtomobilsozlikning kelajagini his eting"
+        },
+        "popularModels": "Mashhur modellar",
+        "whyByd": "Nega BYD",
+        "news": "Yangiliklar va tadbirlar",
+        "ctaTitle": "Bugun test-drayvga yoziling",
+        "ctaButton": "Yozilish"
+    },
+    "models": {
+        "title": "Bizning modellar",
+        "filters": {
+            "bodyType": "Kuzov turi",
+            "engineType": "Dvigatel turi",
+            "priceRange": "Narx diapazoni",
+            "year": "Yil",
+            "all": "Hammasi"
+        },
+        "badges": {
+            "new": "Yangi",
+            "bestseller": "Ommabop",
+            "electric": "Elektromobil"
+        },
+        "types": {
+            "sedan": "Sedan",
+            "suv": "Krossover",
+            "crossover": "Krossover",
+            "hatchback": "Xetchbek"
+        },
+        "engineTypes": {
+            "electric": "Elektr",
+            "hybrid": "Gibrid",
+            "petrol": "Benzin"
+        }
+    },
+    "footer": {
+        "about": "Kompaniya haqida",
+        "quickLinks": "Tezkor havolalar",
+        "contactInfo": "Aloqa ma'lumotlari",
+        "social": "Ijtimoiy tarmoqlar",
+        "newsletter": "Yangiliklarni obuna qiling",
+        "copyright": "© 2026 BYD. Barcha huquqlar himoyalangan."
+    }
+}

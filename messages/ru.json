@@ -1,0 +1,75 @@
+{
+    "nav": {
+        "home": "Главная",
+        "models": "Модели",
+        "about": "О компании",
+        "testDrive": "Тест-драйв",
+        "service": "Сервис",
+        "calculator": "Кредитный калькулятор",
+        "contacts": "Контакты",
+        "sedans": "Седаны",
+        "crossovers": "Кроссоверы",
+        "electric": "Электромобили",
+        "viewAllModels": "Все модели"
+    },
+    "common": {
+        "learnMore": "Подробнее",
+        "bookTestDrive": "Записаться на тест-драйв",
+        "sendRequest": "Оставить заявку",
+        "from": "от",
+        "currency": "сум",
+        "phone": "Телефон",
+        "email": "Email",
+        "name": "Имя",
+        "submit": "Отправить",
+        "reset": "Сбросить",
+        "apply": "Применить",
+        "viewAll": "Смотреть все",
+        "close": "Закрыть"
+    },
+    "home": {
+        "hero": {
+            "title": "Добро пожаловать в BYD",
+            "subtitle": "Ощутите будущее автомобилестроения"
+        },
+        "popularModels": "Популярные модели",
+        "whyByd": "Почему BYD",
+        "news": "Новости и события",
+        "ctaTitle": "Запишитесь на тест-драйв сегодня",
+        "ctaButton": "Записаться"
+    },
+    "models": {
+        "title": "Наши модели",
+        "filters": {
+            "bodyType": "Тип кузова",
+            "engineType": "Тип двигателя",
+            "priceRange": "Ценовой диапазон",
+            "year": "Год",
+            "all": "Все"
+        },
+        "badges": {
+            "new": "Новинка",
+            "bestseller": "Хит продаж",
+            "electric": "Электромобиль"
+        },
+        "types": {
+            "sedan": "Седан",
+            "suv": "Внедорожник",
+            "crossover": "Кроссовер",
+            "hatchback": "Хэтчбек"
+        },
+        "engineTypes": {
+            "electric": "Электро",
+            "hybrid": "Гибрид",
+            "petrol": "Бензин"
+        }
+    },
+    "footer": {
+        "about": "О компании",
+        "quickLinks": "Быстрые ссылки",
+        "contactInfo": "Контактная информация",
+        "social": "Социальные сети",
+        "newsletter": "Подписаться на новости",
+        "copyright": "© 2026 BYD. Все права защищены."
+    }
+}
